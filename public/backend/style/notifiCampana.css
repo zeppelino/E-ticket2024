@@ -1,0 +1,9 @@
+/* ================================================
+COLOR NOTIFIACIONES LEIDAS / NO LEIDAS EN CAMPANA
+==================================================*/
+.notification-read{
+  background-color: white ;
+}
+.notification-unread {
+  background-color: rgba(144, 143, 142, 0.571);
+}

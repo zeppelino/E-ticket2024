@@ -1,0 +1,26 @@
+================================
+COMANDOS UTILES
+================================
+
+php artisan schedule:work
+
+php artisan migrate:fresh --seed
+
+php artisan optimize:clear
+
+php artisan route:clear   
+
+php artisan cache:clear  
+
+php artisan config:clear
+
+================================
+usuarios
+================================
+
+sofia@gmail.com 
+12345678
+
+messi@gmail.com
+Messi123#
+

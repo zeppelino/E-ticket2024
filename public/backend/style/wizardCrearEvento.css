@@ -1,0 +1,32 @@
+.display-none {
+    display: none;
+}
+
+.wizard-flow-chart {
+    border-top: #2ca0ff 3px solid;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.wizard-flow-chart span {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 50%;
+    border: #2ca0ff 3px solid;
+    margin-top: -20px;
+    z-index: 100;
+    background: #fff;
+}
+
+.wizard-flow-chart span.fill {
+    background: #2ca0ff;
+    color: #fff;
+}
+
+/* select de ticekt gratuito */
+.readonly-select {
+    pointer-events: none; /* Evita que el usuario haga clic o cambie el select */
+    background-color: #e9ecef; /* Cambia el fondo para que se vea deshabilitado */
+    opacity: 1; /* Asegura que no se vea como totalmente deshabilitado */
+}

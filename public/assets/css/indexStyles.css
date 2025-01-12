@@ -1,0 +1,12 @@
+
+.pagination .page-link:hover {
+  background-color: #f8f9fa; /* Color de fondo en hover */
+  border-color: #dee2e6;
+}
+.pagination .page-link {
+padding: 0.3rem 0.6rem; /* Tamaño pequeño */
+font-size: 0.875rem;
+}
+.pagination .page-item {
+margin: 0 0.1rem; /* Espacio entre los elementos */
+}

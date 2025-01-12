@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Urbanist";
+  src: url("../fonts/Urbanist-Regular.ttf") format("truetype");
+  src: url("../fonts/Urbanist-Bold.ttf") format("truetype");
+}
+
+/*===============
+EFECTOS EN CARDS
+=================*/
+
+.animated-image {
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.animated-image:hover {
+  transform: translateY(-10px) scale(1.03);
+  /* Mueve la imagen hacia arriba y aumenta el tamaño */
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
+  /* Sombra al pasar el mouse */
+}
+
+.badge {
+  z-index: 2;
+  /* el span de fecha esté por encima de la imagen */
+}
+
+/*==================
+EFECTOS EN CARRUSEL
+====================*/
+
+.carousel {
+  overflow: hidden; /* Evita que las imágenes sobresalgan del carrusel */
+}
+
+.carousel-inner {
+  display: flex; /* Permite el desplazamiento horizontal */
+}
+
+.carousel-item {
+  position: relative;
+  transition: transform 0.5s ease; /* Suaviza el desplazamiento */
+}
+
+.carousel-item img {
+  max-height: 600px; /* Altura deseada */
+  width: 100%; /* Asegura que la imagen ocupe el 100% del ancho */
+  object-fit: cover; /* Mantiene la imagen completa */
+}
+
+/* texto sobre carrusel */
+.carousel {
+  position: relative; /* Asegúrate de que el carrusel tenga posición relativa */
+}
+
+.fixed-text {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 65px;
+  font-family: 'Urbanist','Arial', sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+  z-index: 10; /* Asegura que el texto esté encima de las imágenes */
+}
+
+/*==================
+ICONOS NAVBAR
+====================*/
+
+.nav-link i {
+  margin-right: 3px;
+  vertical-align: middle;
+}
+
+/*============================
+VENTANA MODAL INSCRIPCIÓN
+============================*/
+
+@keyframes slide-down {
+  from {
+      transform: translateY(-300px);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+.modal.fade .modal-dialog {
+  animation: slide-down 0.9s ease forwards;
+}
+
+.modal-content.bg-custom {
+  background-color: #092d56; /* Celeste oscuro */
+  color: #ffffff; /* Texto en blanco */
+}
