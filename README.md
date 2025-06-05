@@ -43,7 +43,7 @@
     └── README.md
 
 ---
-🤝 Colaboradores
+## 🤝 **Colaboradores**
 Este proyecto fue realizado en colaboración con:
 
 Cristian Buenanote
