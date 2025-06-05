@@ -23,7 +23,26 @@
 - **MySQL** como sistema de gestión de bases de datos.
 
 ---
+## 📁 **Estructura del Proyecto**
 
+    E-ticket2024/
+    ├── app/
+    ├── bootstrap/
+    ├── config/
+    ├── database/
+    ├── lang/
+    ├── public/
+    ├── resources/
+    ├── routes/
+    ├── storage/
+    ├── tests/
+    ├── .env.example
+    ├── artisan
+    ├── composer.json
+    ├── package.json
+    └── README.md
+
+---
 🤝 Colaboradores
 Este proyecto fue realizado en colaboración con:
 
@@ -35,6 +54,7 @@ Natanael Campos
 
 Santiago Casado
 
+---
 
 ## ⚙️ Instalación y Configuración
 
